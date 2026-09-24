@@ -1,7 +1,6 @@
 # Reels Digest
 
-`Version: V1` · `Platform: Windows & Linux (desktop)` · `License: none selected yet — see Publish this clean copy to GitHub`
-
+`Version: V1` · `Platform: Windows & Linux (desktop)` ·
 ### Automate the scroll. Curate the highlights. Deliver to Discord
 
 Reels Digest is a desktop automation tool for Instagram Reels discovery, local content analysis, and scheduled Discord sharing. Start a timed scrolling session, and it captures the reels that appear, extracts available text, groups related content, and selects a small digest for delivery with your own message attached.
