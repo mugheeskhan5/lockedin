@@ -1,0 +1,23 @@
+:root { color-scheme: dark; font-family: system-ui, sans-serif; font-size: 13px; color: #e8edf3; background: #111820; }
+body { width: 330px; margin: 0; padding: 22px; box-sizing: border-box; }
+.eyebrow { font-size: 10px; letter-spacing: 2px; font-weight: 700; color: #73d8c8; }
+h1 { margin: 7px 0 10px; font-size: 25px; font-weight: 650; }
+.intro, footer { color: #aebdce; line-height: 1.5; }
+.fields { display: flex; gap: 12px; margin: 20px 0 15px; }
+label { flex: 1; font-weight: 600; }
+.unit { font-weight: 400; color: #aebdce; }
+input { box-sizing: border-box; width: 100%; margin-top: 7px; padding: 10px; border: 1px solid #415165; border-radius: 7px; background: #1c2734; color: #fff; font: inherit; }
+.buttons { display: flex; gap: 10px; }
+button { padding: 11px 14px; border: 1px solid transparent; border-radius: 7px; font: inherit; font-weight: 650; cursor: pointer; }
+#start { flex: 1; color: #082b27; background: #73d8c8; }
+#stop { background: transparent; color: #e8edf3; border-color: #516176; }
+button:disabled { opacity: .45; cursor: default; }
+:focus-visible { outline: 2px solid #b2f5ea; outline-offset: 3px; }
+section { margin: 20px 0 15px; padding-top: 17px; border-top: 1px solid #324153; }
+.status-line { display: flex; justify-content: space-between; gap: 8px; }
+#mode { color: #73d8c8; }
+#countdown, #counts, #backend { font-size: 12px; color: #aebdce; }
+#reason { line-height: 1.5; margin-bottom: 8px; }
+#error { color: #ffbcad; line-height: 1.5; }
+footer { font-size: 11px; }
+kbd { color: #fff; border: 1px solid #516176; border-radius: 3px; padding: 0 3px; }

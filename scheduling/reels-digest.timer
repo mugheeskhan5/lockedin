@@ -1,0 +1,11 @@
+[Unit]
+Description=Run Reels Digest daily at 00:10 Asia/Karachi
+
+[Timer]
+OnCalendar=*-*-* 00:10:00 Asia/Karachi
+Persistent=true
+AccuracySec=1min
+Unit=reels-digest.service
+
+[Install]
+WantedBy=timers.target

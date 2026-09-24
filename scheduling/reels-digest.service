@@ -1,0 +1,12 @@
+[Unit]
+Description=Reels Digest nightly understanding, clustering and Discord delivery
+
+[Service]
+Type=oneshot
+# Replace both absolute project paths with your Linux installation location.
+WorkingDirectory=/absolute/path/reels-digest
+ExecStart="/absolute/path/reels-digest/.venv/bin/python" -u -m backend.nightly --date yesterday
+Environment=PYTHONUNBUFFERED=1
+Nice=10
+TimeoutStartSec=90min
+KillMode=control-group

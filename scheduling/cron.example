@@ -1,0 +1,5 @@
+# Add ONE line to your user's crontab (crontab -e). Replace the absolute path.
+# This fires at 00:10 in the cron daemon's system timezone. Set that timezone
+# consistently with DIGEST_TIMEZONE, or convert the schedule yourself.
+# Do not also enable the systemd timer or Windows task for this same database.
+10 0 * * * /bin/sh '/absolute/path/reels-digest/scheduling/run-nightly.sh'

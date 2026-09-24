@@ -1,0 +1,9 @@
+{
+  "DIGEST_TIMEZONE": "Asia/Karachi",
+  "OLLAMA_MODEL": "llama3.2:1b",
+  "OLLAMA_URL": "http://127.0.0.1:11434",
+  "CLUSTER_MIN_SIZE": "3",
+  "CLUSTER_MIN_SAMPLES": "2",
+  "OCR_LANG": "eng",
+  "DIGEST_CPU_THREADS": "2"
+}

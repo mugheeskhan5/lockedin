@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reels Digest</title>
+  <link rel="stylesheet" href="popup.css">
+  <script src="popup.js" defer></script>
+</head>
+<body>
+  <header><span class="eyebrow">REELS DIGEST</span><h1>Auto-scroll</h1></header>
+  <p class="intro">Scroll this Instagram tab and capture reels for your daily digest.</p>
+  <form id="controls">
+    <div class="fields">
+      <label>Every <span class="unit">seconds</span><input id="interval" type="number" min="5" max="120" step="1" value="10" required></label>
+      <label>For <span class="unit">minutes</span><input id="duration" type="number" min="1" max="60" step="1" value="10" required></label>
+    </div>
+    <div class="buttons"><button id="start" type="submit" disabled>Start this tab</button><button id="stop" type="button" disabled>Stop</button></div>
+  </form>
+  <section aria-label="Session status">
+    <div class="status-line"><strong id="mode">Connecting…</strong><span id="countdown"></span></div>
+    <p id="reason" role="status" aria-live="polite">Checking this tab.</p>
+    <p id="counts">No session started.</p>
+    <p id="backend">Checking local backend…</p>
+    <p id="error" role="alert" hidden></p>
+  </section>
+  <footer>Keep this tab visible in a separate window. Hiding it or interacting with the page stops scrolling. Press <kbd>Esc</kbd> to stop. Closing this popup keeps the session running.</footer>
+</body>
+</html>

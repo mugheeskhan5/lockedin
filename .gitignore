@@ -1,0 +1,59 @@
+# Local credentials and per-machine settings (examples stay tracked).
+.env
+.env.*
+*.local.json
+*.local.json.tmp
+.secrets/
+secrets/
+*.pem
+*.key
+
+# Captured content, delivery history, logs, caches, and private backups.
+backend/data/
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.log
+*.log.*
+logs/
+backups/
+.cache/
+model-cache/
+PowerShell_transcript*
+
+# Downloaded model weights and generated archives.
+*.safetensors
+*.onnx
+*.pt
+*.pth
+*.gguf
+*.bin
+*.zip
+*.7z
+*.tar
+*.gz
+
+# Python environments and generated build files.
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Machine/editor scratch files.
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
