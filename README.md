@@ -208,7 +208,7 @@ The next delivery process reads the edited template, including for pending prepa
 
 ## Full documentation
 
-This README covers the overview, requirements, and Windows installation — everything needed for a first working setup. Everything past initial setup lives in **[`DOCS.md`](DOCS.md)**, including:
+This README covers the overview, requirements, and Windows installation — everything needed for a first working setup. Everything past initial setup lives in **[`DOCS.md`](/docs/DOCS.md)**, including:
 
 - Daily usage (auto-scroll, manual capture, previewing and sending a digest)
 - Dates, `yesterday` vs `today`, and sending additional batches
