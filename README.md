@@ -1,4 +1,4 @@
-# Reels Digest
+# Reels Digest- LOCKEDIN
 
 `Version: V1` · `Platform: Windows & Linux (desktop)`
 
